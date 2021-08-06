@@ -41,7 +41,7 @@ complex_numbers = [
 complex_sum1 = 0 + 0j
 for cn in complex_numbers:
     complex_sum1 += cn 
-print(complex_sum1)
+print(complex_sum1)  ## (12+8j)
 ## We cannot use list comprehension for this sum, list comprehension is to generate a list, NOT to use the elements of an exiusting list in a sum.
 
 for cn in complex_numbers:
