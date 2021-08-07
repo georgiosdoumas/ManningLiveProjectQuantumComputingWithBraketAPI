@@ -80,3 +80,10 @@ print("m4 is \n", m4)
 m5 = m4.T 
 print("m4 transpose is \n", m5)
 # multiplic = m3 @ m5  ## CAN NOT be executed! Error.
+
+multiplic = m4 @ m3  ## THIS can be done  
+print(multiplic)  
+#[[-17.+56.j]
+# [  5.+43.j]]
+#multiplic = m5 @ m3  # this can not be done.
+
